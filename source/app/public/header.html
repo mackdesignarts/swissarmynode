@@ -1,0 +1,23 @@
+<header>
+  <br />
+  <div>&nbsp; &nbsp;&nbsp;<span style="color: red;"><i class="fa fa-plus-square"></i>&nbsp;Swiss Army Node</span></b></div>
+  <br />
+  <ul>
+    <li><a href="#" data-ng-click="callHttp('/scrape');">data scraper</a></li>
+    <li>
+      <a href="#" data-ng-click="postHttp('/forchan', 'inputChan');">4chan getter</a>
+      <br />
+      <p id="inputChan">
+        <input id="getNum" type ="text" style="width: 120px" /> - Get this number
+        &nbsp;|&nbsp;&nbsp;
+        <input type="checkbox" id="all" /> - Any get
+        &nbsp;|&nbsp;&nbsp;
+        <input type="checkbox" id="longer" /> - Higher gets only
+      </p>
+    </li>
+  </ul>
+  <br />
+  <hr />
+</header>
+
+<div id="response"></div>
